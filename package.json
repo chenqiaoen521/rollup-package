@@ -1,8 +1,10 @@
 {
-  "name": "wzjxtree",
+  "name": "rollup-package",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "rollup-cli",
+  "author": "wuzhe",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
   "scripts": {
     "dev": "rollup --config rollup.config.dev.js -w",
     "build": "rollup --config rollup.config.prod.js",
@@ -11,15 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chenqiaoen521/wzjxtree.git"
+    "url": "git@github.com:chenqiaoen521/rollup-package.git"
   },
   "keywords": [
-    "tree",
-    "wuzhe",
-    "jinxue"
+    "rollup",
+    "rollup-cli",
+    "rollup-package"
   ],
-  "author": "wuzhe",
-  "license": "ISC",
+  "licenses": "MIT",
   "bugs": {
     "url": "https://github.com/chenqiaoen521/wzjxtree/issues"
   },
