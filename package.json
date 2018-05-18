@@ -1,0 +1,56 @@
+{
+  "name": "wzjxtree",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rollup --config rollup.config.dev.js -w",
+    "build": "rollup --config rollup.config.prod.js",
+    "reload": "livereload",
+    "watch": "npm-run-all --parallel dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenqiaoen521/wzjxtree.git"
+  },
+  "keywords": [
+    "tree",
+    "wuzhe",
+    "jinxue"
+  ],
+  "author": "wuzhe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenqiaoen521/wzjxtree/issues"
+  },
+  "homepage": "https://github.com/chenqiaoen521/wzjxtree#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "cssnano": "^3.10.0",
+    "npm-run-all": "^4.1.2",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-nested": "^3.0.0",
+    "postcss-simple-vars": "^4.1.0",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-commonjs": "^9.1.0",
+    "rollup-plugin-json": "^2.3.0",
+    "rollup-plugin-livereload": "^0.6.0",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-postcss": "^1.5.1",
+    "rollup-plugin-replace": "^2.0.0",
+    "rollup-plugin-serve": "^0.4.2",
+    "rollup-plugin-uglify": "^3.0.0",
+    "rollup-watch": "^4.3.1"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-runtime": "^6.26.0",
+    "debug": "^3.1.0",
+    "jquery": "^3.3.1"
+  }
+}
